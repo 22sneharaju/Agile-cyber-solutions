@@ -1,0 +1,32 @@
+@font-face{
+    font-family: myFont;
+    src:url(waltographUI.ttf);
+}
+body{
+    background:black;
+    color:white;
+}
+h1{
+    font-family: myFont;
+    text-align:center;
+}
+h2{
+    font-family: myFont;
+    text-align:center;
+}
+h3{
+    font-family: myFont;
+    text-align:center;
+}
+h4{
+    font-family: myFont;
+    text-align:center;
+}
+h5{
+    font-family: myFont;
+    text-align:center;
+}
+h6{
+    font-family: myFont;
+    text-align:center;
+}
