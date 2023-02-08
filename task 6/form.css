@@ -1,0 +1,110 @@
+* {
+    margin:0;
+    padding:0;
+    color:white;
+}
+body{
+    background-image:url(Downloads/new.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top:10px;
+}
+h1 {
+    letter-spacing: 1ch;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+    
+}
+.product {
+    color: white;
+    background-image: url("./images/purchase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+label {
+    width: 200px;
+    display: inline-block;
+}
+#main label {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    
+    margin-right: 1%;
+    padding: 2px;
+}
+#main {
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    width: 85%;
+    height: auto;
+    padding: 2%;
+    background-color: rgba(67, 255, 255, .4);
+    margin-left: 5%;
+    margin-top: 2%;
+    
+    
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 92%;
+    left: 25%;
+}
+button{
+    margin: 1%;
+    width: 150px;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0ch;
+    
+}
+a {
+    color: brown;
+}
+.sub{
+    background-color: skyblue;
+    color: aliceblue;
+    margin-left: 20%;
+}
+.reset {
+    background-color: orange;
+    color: aliceblue;
+    
+}
+ input{
+    margin: 1%;
+    background: transparent;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    width: 300px;
+}
+input::placeholder {
+    padding-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+.num {
+    width: 5%;
+    
+}
+.add {
+    width: 850px;
+    padding-left: 0%;
+}
+.phone {
+    width: 200px;
+    padding-left: 1%;
+}
