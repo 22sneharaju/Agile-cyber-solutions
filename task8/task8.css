@@ -1,0 +1,28 @@
+#background{
+    position:fixed;
+    width:40%;
+    height:40%;
+    background-color:lightgrey;
+    margin-left:30%;
+}
+
+table, th, td{
+    border: 1px solid ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border-width: 2px;
+}
+th{
+    text-align: center;
+    font-weight: bold;
+}
+table{
+    width: 450px;
+    text-align:left;
+    border-collapse: collapse;
+}
+h3{
+    text-align: center;
+    font-style:italic;
+}
