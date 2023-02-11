@@ -1,0 +1,83 @@
+.container{
+    width: 625px;
+    background-color: lightgray;
+    padding: 20px;
+    height: 625px;
+    margin-left: 20%;
+    margin-right: 20px;
+    margin-top: 1%;
+   
+}
+.colorone{
+    float: left;
+    width: 195px;
+    height: 100px;
+    background-color: red;
+    
+}
+.colortwo{
+    width: 400px;
+    height: 100px;
+    background-color:  darkblue;
+    float: left;
+    margin-left:20px;
+}
+.colorthree{
+    width: 625px;
+    height: 150px;
+    background-color: rgb(134, 98, 7);
+    margin-top: 20px;
+    float: left;
+}
+.colorfour,.colorfive,.colorsix{
+    float: left;
+    width: 195px;
+    height: 100px;
+    background-color:  limegreen;
+    margin-top: 20px;
+}
+.colorfive{
+    background-color: purple;
+    margin-left: 20px;
+}
+.colorsix{
+    background-color:blue;
+    margin-left: 20px;
+}
+.colorseven,.coloreight{
+            float:left;
+            width:300px;
+            height: 100px;
+            background-color:orange ;
+            margin-top: 20px;
+}
+.coloreight{
+    background-color:limegreen;
+    margin-left: 20px;
+}
+.colornine,.colorten,.coloreleven,.colortwelve{
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin-top:20px;
+    background-color:darkgreen;
+}
+.colorten{
+    background-color: skyblue;
+    margin-left: 20px;
+}
+.coloreleven{
+    background-color: brown;
+    margin-left: 20px;
+}
+.colortwelve{
+    background-color: violet;
+    margin-left: 20px;
+}
+.colorthirteen{
+    background-color: black;    
+    width: 625px;
+    float:left;
+    height:25px ; 
+    margin-top: 20px;
+}
