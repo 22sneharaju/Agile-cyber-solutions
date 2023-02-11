@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="schedule.css">
+        <title>TIME TABLE</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="4">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th colspan="2" rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td class="yellow" rowspan="2">8:00 a.m.</td>
+                <td class="blue" rowspan="2">5:00 p.m.</td>
+                <td>Introduction to XML</td>
+                <tr><td>Validity:DTD and Relax NG</td></tr>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td class="yellow">8:00 a.m.</td>
+                <td class="yellow">11:00 a.m.</td>
+                <td colspan="2">XPath</td>
+                <tr>
+                    <td class="yellow">11:00 a.m.</td>
+                    <td class="green">2:00 p.m.</td>
+                    <td colspan="3" rowspan="2">XSL Transformations</td>
+                </tr>
+                <tr>
+                    <td class="green">2:00 p.m.</td>
+                    <td class="blue">5:00 p.m.</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td class="yellow">8:00 a.m.</td>
+                <td class="green">12:00 p.m.</td>
+                <td colspan="2">XSL Formatting Objects</td>
+            </tr>    
+        </table>
+    </body>
+</html>
