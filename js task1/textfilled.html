@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>
+            TESTFILLED BOXES
+        </title>
+    </head>
+  <body>
+    <div onclick="alertTextBox(this)">Text Box 1</div>
+<div onclick="alertTextBox(this)">Text Box 2</div>
+<div onclick="alertTextBox(this)">Text Box 3</div>
+<div onclick="alertTextBox(this)">Text Box 4</div>
+<script>
+var clickedText = "";
+function alertTextBox(div){
+    if(clickedText != ""){
+        alert(clickedText + " " + div.innerHTML);
+    } else {
+        alert(div.innerHTML);
+    }
+    clickedText = div.innerHTML;
+}
+   </script> 
+   </body>
+   </html>

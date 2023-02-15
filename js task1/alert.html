@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alert and Div</title>
+    <style>
+    #userInput{
+        margin-left:30%;
+        border:solid;
+      }
+      button{
+        border:solid;
+      }
+      #output{
+        margin-left:30%;
+      }
+      </style>
+  </head>
+  <body>
+    <input type="text" id="userInput" placeholder="Enter text here">
+    <button onclick="showInput()">Show Input</button>
+    <div id="output"></div>
+    <script>
+    function showInput() {
+        var userInput = document.getElementById("userInput").value;
+        document.getElementById("output").innerHTML = userInput;
+        alert(userInput);
+      }
+      </script>
+  </body>
+</html>
